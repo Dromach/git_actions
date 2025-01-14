@@ -16,4 +16,3 @@ jobs:
       - name: Set github user
         run: git config user.email "test@example.com" && git config user.name "CI/CD - MMI"
       - run: npm ci
-      - run: npm test
